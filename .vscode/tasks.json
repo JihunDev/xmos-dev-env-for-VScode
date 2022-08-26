@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build active file",
+            "type": "shell",
+            "command": "zsh",
+            "args": [
+                "./build.sh"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run active file",
+            "type": "shell",
+            "command": "zsh",
+            "args": [
+                "./run.sh"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Debug active file",
+            "type": "shell",
+            "command": "zsh",
+            "args": [
+                "./debug.sh"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
