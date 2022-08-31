@@ -140,6 +140,12 @@ xgdb a.xe
 }
 ```
 
+
+# Run
+- Start Button ->  XMOS -> Command Prompt(15.x.x) 실행
+- 프로젝트 폴더로 이동 후 Typing `code .`
+
+
 # VScode Command
 ## Build
 `Ctrl + Shift + B`
