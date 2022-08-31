@@ -18,6 +18,8 @@ $ xcc --help
 - 다운로드 받은 설치 프로그램에 지침에 따라 프로그램 설치
 - Bash 환경을 사용하기 위한 Git for Windows 설치
 	- Git 다운로드 : [Git for Windows](https://git-scm.com/downloads).
+	- 설치 시 표준 지침에 따라 설치하고 아래 이미지와 같이 선책
+		![install windows setting](/image/git_for_windows.png)
 - Start Button ->  XMOS -> Command Prompt(15.x.x) 실행
 - bash 환경 실행을 위한 커맨드 입력
 ```shell
